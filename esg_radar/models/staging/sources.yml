@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: esg_raw
+    database: esg-radar-niveda
+    schema: esg_raw
+    tables:
+      - name: esg_scores
+        description: "Raw ESG scores ingested from Kaggle dataset"
