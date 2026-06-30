@@ -6,3 +6,9 @@ data/
 .DS_Store
 dbt/target/
 dbt/dbt_packages/
+airflow/airflow.cfg
+airflow/airflow.db
+airflow/logs/
+airflow/webserver_config.py
+airflow/simple_auth_manager_passwords.json.generated
+*.db
