@@ -1,0 +1,91 @@
+[0m13:48:17.085560 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11162bda0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1146f5790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1146f53d0>]}
+
+
+============================== 13:48:17.090648 | 0283c8d0-b1a7-4c8f-bbcb-11bc5abd01a2 ==============================
+[0m13:48:17.090648 [info ] [MainThread]: Running with dbt=1.11.11
+[0m13:48:17.091492 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'introspect': 'True', 'empty': 'None', 'use_colors': 'True', 'target_path': 'None', 'indirect_selection': 'eager', 'printer_width': '80', 'fail_fast': 'False', 'log_path': 'logs', 'write_json': 'True', 'invocation_command': 'dbt init esg_radar', 'static_parser': 'True', 'no_print': 'None', 'log_format': 'default', 'log_cache_events': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'cache_selected_only': 'False', 'use_experimental_parser': 'False', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': '/Users/macbookair/.dbt', 'debug': 'False', 'send_anonymous_usage_stats': 'True', 'version_check': 'True'}
+[0m13:48:17.116386 [debug] [MainThread]: Starter project path: /Users/macbookair/EPITA/esg-radar/venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m13:48:17.125783 [info ] [MainThread]: 
+Your new dbt project "esg_radar" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m13:48:17.126297 [info ] [MainThread]: Setting up your profile.
+[0m13:49:58.905176 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 101.91794, "process_in_blocks": "0", "process_kernel_time": 0.295772, "process_mem_max_rss": "106024960", "process_out_blocks": "0", "process_user_time": 1.690984}
+[0m13:49:58.906106 [debug] [MainThread]: Command `dbt init` succeeded at 13:49:58.905925 after 101.92 seconds
+[0m13:49:58.906721 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1143e1970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1145ad520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11404e330>]}
+[0m13:49:58.907352 [debug] [MainThread]: Flushing usage events
+[0m13:49:59.350837 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:35:09.318002 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10856ff50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10956ffb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10956fc20>]}
+
+
+============================== 11:35:09.324554 | 7163d1b0-0cda-498f-b5cc-dc619aaad947 ==============================
+[0m11:35:09.324554 [info ] [MainThread]: Running with dbt=1.11.11
+[0m11:35:09.325264 [debug] [MainThread]: running dbt with arguments {'introspect': 'True', 'write_json': 'True', 'printer_width': '80', 'log_path': 'logs', 'static_parser': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'version_check': 'True', 'quiet': 'False', 'warn_error': 'None', 'send_anonymous_usage_stats': 'True', 'log_cache_events': 'False', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'profiles_dir': '/Users/macbookair/.dbt', 'use_colors': 'True', 'empty': 'None', 'debug': 'False', 'target_path': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt debug', 'fail_fast': 'False'}
+[0m11:35:09.352544 [info ] [MainThread]: dbt version: 1.11.11
+[0m11:35:09.353025 [info ] [MainThread]: python version: 3.12.6
+[0m11:35:09.353412 [info ] [MainThread]: python path: /Users/macbookair/EPITA/esg-radar/venv/bin/python3.12
+[0m11:35:09.353793 [info ] [MainThread]: os info: macOS-15.7.7-x86_64-i386-64bit
+[0m11:35:11.739718 [info ] [MainThread]: Using profiles dir at /Users/macbookair/.dbt
+[0m11:35:11.740534 [info ] [MainThread]: Using profiles.yml file at /Users/macbookair/.dbt/profiles.yml
+[0m11:35:11.741148 [info ] [MainThread]: Using dbt_project.yml file at /Users/macbookair/EPITA/esg-radar/dbt_project.yml
+[0m11:35:11.741648 [info ] [MainThread]: adapter type: bigquery
+[0m11:35:11.742108 [info ] [MainThread]: adapter version: 1.11.3
+[0m11:35:11.742552 [info ] [MainThread]: Configuration:
+[0m11:35:11.742964 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m11:35:11.743505 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m11:35:11.744121 [info ] [MainThread]: Required dependencies:
+[0m11:35:11.744963 [debug] [MainThread]: Executing "git --help"
+[0m11:35:11.831648 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m11:35:11.833262 [debug] [MainThread]: STDERR: "b''"
+[0m11:35:11.833676 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m11:35:11.834098 [info ] [MainThread]: Connection:
+[0m11:35:11.834527 [info ] [MainThread]:   method: oauth
+[0m11:35:11.834913 [info ] [MainThread]:   database: esg-radar-niveda
+[0m11:35:11.835291 [info ] [MainThread]:   execution_project: esg-radar-niveda
+[0m11:35:11.835662 [info ] [MainThread]:   schema: esg_transformed
+[0m11:35:11.836033 [info ] [MainThread]:   location: EU
+[0m11:35:11.836416 [info ] [MainThread]:   priority: interactive
+[0m11:35:11.836791 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m11:35:11.837160 [info ] [MainThread]:   impersonate_service_account: None
+[0m11:35:11.837529 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m11:35:11.837895 [info ] [MainThread]:   job_retries: 1
+[0m11:35:11.838264 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m11:35:11.838634 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m11:35:11.838999 [info ] [MainThread]:   timeout_seconds: 300
+[0m11:35:11.839370 [info ] [MainThread]:   client_id: None
+[0m11:35:11.839739 [info ] [MainThread]:   token_uri: None
+[0m11:35:11.840101 [info ] [MainThread]:   compute_region: None
+[0m11:35:11.840471 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m11:35:11.840843 [info ] [MainThread]:   gcs_bucket: None
+[0m11:35:11.841318 [info ] [MainThread]:   dataproc_batch: None
+[0m11:35:11.842139 [info ] [MainThread]: Registered adapter: bigquery=1.11.3
+[0m11:35:12.060306 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m11:35:12.061002 [debug] [MainThread]: On debug: select 1 as id
+[0m11:35:12.061491 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m11:35:15.726671 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=esg-radar-niveda&j=bq:EU:ba7f17a0-8dcc-42ab-a25f-665e94c88a55&page=queryresults
+[0m11:35:16.011935 [debug] [MainThread]: SQL status: OK in 0.283 seconds
+[0m11:35:16.286585 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m11:35:16.287193 [info ] [MainThread]: [31m1 check failed:[0m
+[0m11:35:16.287640 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </Users/macbookair/EPITA/esg-radar/dbt_project.yml> not found
+
+[0m11:35:16.323966 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 7.1202083, "process_in_blocks": "0", "process_kernel_time": 1.015615, "process_mem_max_rss": "203472896", "process_out_blocks": "0", "process_user_time": 2.967412}
+[0m11:35:16.324755 [debug] [MainThread]: Command `dbt debug` failed at 11:35:16.324600 after 7.12 seconds
+[0m11:35:16.325327 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m11:35:16.325882 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x117471700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11a59a4e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11c147d70>]}
+[0m11:35:16.326505 [debug] [MainThread]: Flushing usage events
+[0m11:35:16.760816 [debug] [MainThread]: An error was encountered while trying to flush usage events
