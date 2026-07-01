@@ -238,8 +238,7 @@ Latest major version with significant scheduler improvements. Navigating breakin
 ## 👩‍💻 Author
 
 **Niveda Nadarassin**
-Junior Data Engineer | Mastère Data Science & Analytics — EPITA 2025
-📧 nivi.292000@gmail.com
+Junior Data Engineer 
 🔗 [GitHub](https://github.com/Niveda2910)
 
 ---
